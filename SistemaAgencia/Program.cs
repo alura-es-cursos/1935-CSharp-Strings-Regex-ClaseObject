@@ -1,15 +1,25 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-string url = "sitiosweb?parametros";
-//            0123456789
+using SistemaAgencia;
+using System.Reflection.Metadata;
 
+try
+{
+    string url = "https://www.bytebank.com?monedaOrigen=Pesos&monedaDestino=Dolares&cantidad=1000";
 
-              
-Console.WriteLine(url);
+    string argumentos = url.Substring(url.IndexOf('?') + 1);
+    string parametro = "monedaDestino";
 
-string parametros = url.Substring(9);
+    Console.WriteLine(argumentos);
+    int posicionParametro = argumentos.IndexOf(parametro)+parametro.Length+1;
 
-Console.WriteLine(parametros);
-
-Console.ReadLine();
+    Console.WriteLine(posicionParametro);
+    Console.ReadLine();
+} catch(ArgumentNullException e)
+{
+    Console.WriteLine("La url no puede ser nula");
+} catch(ArgumentException e)
+{
+    Console.WriteLine(e.Message);
+}
 
