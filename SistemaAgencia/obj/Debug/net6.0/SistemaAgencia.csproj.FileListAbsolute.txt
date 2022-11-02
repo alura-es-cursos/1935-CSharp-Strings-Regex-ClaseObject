@@ -1,0 +1,15 @@
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\bin\Debug\net6.0\SistemaAgencia.exe
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\bin\Debug\net6.0\SistemaAgencia.deps.json
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\bin\Debug\net6.0\SistemaAgencia.runtimeconfig.json
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\bin\Debug\net6.0\SistemaAgencia.dll
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\bin\Debug\net6.0\SistemaAgencia.pdb
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\SistemaAgencia.csproj.AssemblyReference.cache
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\SistemaAgencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\SistemaAgencia.AssemblyInfoInputs.cache
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\SistemaAgencia.AssemblyInfo.cs
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\SistemaAgencia.csproj.CoreCompileInputs.cache
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\SistemaAgencia.dll
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\refint\SistemaAgencia.dll
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\SistemaAgencia.pdb
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\SistemaAgencia.genruntimeconfig.cache
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\ref\SistemaAgencia.dll
