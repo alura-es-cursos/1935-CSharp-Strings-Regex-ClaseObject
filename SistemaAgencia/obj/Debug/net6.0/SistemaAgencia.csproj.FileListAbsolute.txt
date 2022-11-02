@@ -13,3 +13,6 @@ C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\refint\SistemaAge
 C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\SistemaAgencia.pdb
 C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\SistemaAgencia.genruntimeconfig.cache
 C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\ref\SistemaAgencia.dll
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\bin\Debug\net6.0\ByteBank.Modelos.dll
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\bin\Debug\net6.0\ByteBank.Modelos.xml
+C:\CursoCSharp6\SistemaAgencia\SistemaAgencia\obj\Debug\net6.0\SistemaAgencia.csproj.CopyComplete

@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="ByteBank.Modelos">
+      <HintPath>..\..\..\CursoCSharp5\dlls\ByteBank.Modelos.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

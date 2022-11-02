@@ -1,11 +1,60 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using ByteBank.Modelos;
 using SistemaAgencia;
 using System.Reflection.Metadata;
 using System.Text.RegularExpressions;
 
 try
 {
+    //Clase object
+
+    //Console es una clase estática
+    //WriteLine es un método estático
+    //Parametros de distintos tipos de datos
+
+    Cliente cliente1 = new Cliente("Carlos Docente");
+    cliente1.Dni = "8001879";
+    cliente1.Profesion = "Docente";
+
+    Cliente cliente2 = new Cliente("Carlos Perez");
+    cliente2.Dni = "8001879";
+    cliente2.Profesion = "Docente";
+
+    CuentaBancaria cuenta = new CuentaBancaria("121211", "23232");
+
+
+    if (cliente1.Equals(cuenta))
+    {
+        Console.WriteLine("Clientes iguales");
+    } else
+    {
+        Console.WriteLine("Clientes u objetos diferentes");
+    }
+
+
+
+    /*
+    Console.WriteLine("hola Mundo");
+    Console.WriteLine(100);
+    Console.WriteLine(12.32);
+    Console.WriteLine(true);
+
+    CuentaBancaria cuenta = new CuentaBancaria("121212", "12332");
+
+    Console.WriteLine(cuenta.ToString());
+
+    Director director = new Director("8001879");
+
+    Console.WriteLine(director);
+
+    Object obj = new object();
+    */
+
+
+
+    //Parámetro
+    /*
     //El usuario tiene el telefono 1234-4254
     // Mi telefono es 4231-9877 y puedo conversar en horas comerciales.
     // Para mayor atención llamar al 5599-7485
