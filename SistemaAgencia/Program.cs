@@ -5,15 +5,24 @@ using System.Reflection.Metadata;
 
 try
 {
-    string url = "https://www.bytebank.com?monedaOrigen=Pesos&monedaDestino=Dolares&cantidad=1000";
+    //El usuario tiene el telefono 1234-42545
+    //Ahora este usuario cambió su telefono para 5436 22455
+    //Y para finalizar el usuario tiene otro telefono que es 23232323232
 
-    string argumentos = url.Substring(url.IndexOf('?') + 1);
-    string parametro = "monedaDestino";
+    string url = "https://www.bytebank.com?monedaOrigen=Pesos&monedaDestino=Dolares&cantidad=1500";
 
-    Console.WriteLine(argumentos);
-    int posicionParametro = argumentos.IndexOf(parametro)+parametro.Length+1;
+    Console.WriteLine(url.StartsWith("https://www.bytebank.com"));
+    Console.WriteLine(url.EndsWith("1500"));
+    Console.WriteLine(url.Contains("Pesos"));
+    /*
 
-    Console.WriteLine(posicionParametro);
+    ExtraeArgumentosURL extractor = new ExtraeArgumentosURL(url);
+
+    Console.WriteLine("MonedaOrigen:"+extractor.getValor("MonedaOrigen"));
+    Console.WriteLine("MonedaDESTINO:"+extractor.getValor("MonedaDESTINO"));
+    Console.WriteLine("CANTIDAD:"+extractor.getValor("CanTIDAD"));
+   
+    */
     Console.ReadLine();
 } catch(ArgumentNullException e)
 {

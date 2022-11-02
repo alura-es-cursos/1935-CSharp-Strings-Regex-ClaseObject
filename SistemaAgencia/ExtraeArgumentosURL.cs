@@ -21,11 +21,22 @@ namespace SistemaAgencia
         }
 
         // monedaOrigen=Pesos&monedaDestino=Dolares&cantidad=1000
-        public string getValor(string argumentos, string parametro)
+        public string getValor(string parametro)
         {
-            int posicionParametro = argumentos.IndexOf(parametro);
+            string argumentos = _url.Substring(_url.IndexOf('?') + 1);
+            
+            string argumentosEnMayuscula = argumentos.ToUpper();
+            parametro = parametro + "=";
+            parametro = parametro.ToUpper();
+            
+            //Obtenemos la posición del valor del argumento
+            int posicionParametro = argumentosEnMayuscula.IndexOf(parametro) + parametro.Length;
+            string valor = argumentos.Substring(posicionParametro);
+            int posicionSeparador = valor.IndexOf('&');
 
-            return "";
+            if (posicionSeparador >= 0)
+                return valor.Remove(posicionSeparador);
+            return valor;
         }
     }
 }
